@@ -19,5 +19,7 @@ kittens.shift();
 }
 
 function appendKitten(name){
-kittens.slice("Broom");
+  var newArray = kittens.slice();
+  newArray.push(name)
+  return newArray
 }
