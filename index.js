@@ -15,5 +15,5 @@ kittens.pop();
 }
 
 function destructivelyRemoveFirstKitten(){
-kittens.pop();
+kittens.shift();
 }
