@@ -9,3 +9,7 @@ kittens.push("Ralph");
 function destructivelyPrependKitten(name){
 kittens.unshift("Bob");  
 }
+
+function destructivelyRemoveLastKitten(){
+kittens.pop();
+}
